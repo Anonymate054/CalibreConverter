@@ -50,8 +50,7 @@ def convert_file_to_epub(input_file):
     
     try:
         subprocess.run(
-            f'ebook-convert \
-            {input_file} {output_file_name}', shell=True, check=True)
+            f'ebook-convert {input_file} {output_file_name}', shell=True, check=True)
     except subprocess.CalledProcessError as e:
         raise RuntimeError(f"Calibre conversion failed: {e}") from e
 

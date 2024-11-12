@@ -1,9 +1,7 @@
 FROM python:3.12-slim
 
 RUN apt-get update && \
-    apt-get install -y build-essential libssl-dev libffi-dev python3-dev python3-pip python3-venv wget libxcb-cursor0 libegl1 libopengl0
-
-RUN wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sh /dev/stdin
+    apt-get install -y calibre
 
 WORKDIR /app
 
