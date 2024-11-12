@@ -1,12 +1,12 @@
 # Convert2EPUB
 
-This repository contains the implementation of an API to convert [MS Office Suite](https://apps.microsoft.com/detail/9mwk7rn11c5z?cid=majornelson) files to EPUB. The followin image describes the Request and Response accepted and returned respectively from the API:
+This repository contains the implementation of an API to convert [Calibre](https://calibre-ebook.com/) files to EPUB. The followin image describes the Request and Response accepted and returned respectively from the API:
 
-![API](img/c2p.jpg)
+![API](img/Diagram.svg)
 
 
 # 1. How to deploy the API in Google Cloud
-This section explains the requirements and implementations necessary to host and deploy the containerized API localized in `app/`.
+This section explains the requirements and implementations necessary to host and deploy the containerized API localized in `root`.
 
 ### 1. Authenticate
 
