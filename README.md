@@ -52,7 +52,7 @@ This will allow us to push docker images from our local machine.
 ### 5. Clone the repository
 
 ```bash
-git clone https://github.com/ulises-jimenez07/convert2epub.git
+git clone https://github.com/Anonymate054/CalibreConverter.git
 cd convert2epub/app/
 ```
 ### 6. Build the Docker image using Cloud Build
