@@ -53,7 +53,7 @@ This will allow us to push docker images from our local machine.
 
 ```bash
 git clone https://github.com/Anonymate054/CalibreConverter.git
-cd convert2epub/app/
+cd CalibreConverter
 ```
 ### 6. Build the Docker image using Cloud Build
 
@@ -72,7 +72,7 @@ gcloud run deploy convert2epub \
 --image $REGION-docker.pkg.dev/$PROJECT_ID/cloudrun-images/convert2epub \
 --platform managed \
 --region $REGION \
---port 8000 \
+--port 8080 \
 --allow-unauthenticated 
 ```
 
